@@ -4,15 +4,23 @@ import Button from './component/Button';
 
 function App() {
   return (
-    <div style={{ display: 'flex' }}>
+    <div
+      style={{
+        display: 'flex',
+        position: 'relative',
+        alignSelf: 'center',
+      }}
+    >
       <div
         style={{
-          border: 'solid 2px black',
+          border: 'solid 2px green',
           textAlign: 'center',
           width: '50%',
           borderRadius: '20px',
-          padding: '20px',
+          padding: '50px',
+          margin: '50px',
           marginRight: '30px',
+          lineHeight: '30px',
         }}
       >
         <CardComponent cardTitle="Heading 1" />
@@ -23,9 +31,9 @@ function App() {
         <Button
           width="100px"
           padding="10px"
-          backgroundColor="white"
-          border="solid"
-          fontSize="15px"
+          backgroundColor="green"
+          border="solid green 3px"
+          fontSize="20px"
           borderRadius="5px"
           buttonText="btn1"
         />
@@ -33,12 +41,14 @@ function App() {
 
       <div
         style={{
-          border: 'solid 2px black',
+          border: 'solid 2px blue',
           textAlign: 'center',
           width: '50%',
           borderRadius: '20px',
-          padding: '20px',
+          padding: '50px',
+          margin: '50px',
           marginLift: '30px',
+          lineHeight: '30px',
         }}
       >
         <CardComponent cardTitle="Heading 2" />
@@ -50,9 +60,9 @@ function App() {
         <Button
           width="100px"
           padding="10px"
-          backgroundColor="white"
-          border="solid"
-          fontSize="15px"
+          backgroundColor="blue"
+          border="solid blue 3px"
+          fontSize="20px"
           borderRadius="5px"
           buttonText="btn2"
         />
