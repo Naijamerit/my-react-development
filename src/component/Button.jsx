@@ -3,6 +3,7 @@ import React from 'react';
 const Button = ({
   width,
   padding,
+  margin,
   backgroundColor,
   color,
   border,
@@ -15,6 +16,7 @@ const Button = ({
       style={{
         width,
         padding,
+        margin,
         backgroundColor,
         color,
         border,
